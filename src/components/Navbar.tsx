@@ -58,11 +58,12 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center">
-          <img 
-            src="/lovable-uploads/e0be2166-7286-4336-928d-316bc468b851.png" 
-            alt="Bridge Logo" 
-            className="h-12 w-auto"
-          />
+        <img  //
+  src="/lovable-uploads/e0be2166-7286-4336-928d-316bc468b851.png" 
+  alt="Bridge Logo" 
+  className="h-[230px] w-auto"  // Custom size between h-20 and h-21
+/>
+
         </a>
 
         {/* Desktop Navigation */}
