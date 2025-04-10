@@ -49,7 +49,7 @@ const Navbar = () => {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-4 md:px-8",
+        "w-full z-50 transition-all duration-300 px-6 py-4 md:px-8", // <-- fixed/top/left removed here
         isScrolled 
           ? "glassmorphism shadow-sm backdrop-blur-xl border-b border-slate-200/30" 
           : "bg-transparent"
@@ -58,12 +58,11 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center">
-        <img 
-  src="/lovable-uploads/e0be2166-7286-4336-928d-316bc468b851.png" 
-  alt="Bridge Logo" 
-  className="h-[230px] w-auto"  // Custom size between h-20 and h-21
-/>
-
+          <img
+            src="/lovable-uploads/e0be2166-7286-4336-928d-316bc468b851.png" 
+            alt="Bridge Logo" 
+            className="h-[230px] w-auto"
+          />
         </a>
 
         {/* Desktop Navigation */}
